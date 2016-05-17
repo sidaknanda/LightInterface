@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         seekBarRoom1.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                Log.d("SN", "Progress: " + progress);
+                  Log.d("SN", "Progress: " + progress);
                 //float[] hsvColor = {0, 1, 1};
                 //hsvColor[0] = 360f * progress / 100;
                 //seekBarRoom1.setBackgroundColor(Color.HSVToColor(hsvColor));
